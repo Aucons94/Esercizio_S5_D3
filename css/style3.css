@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #742305;
+}
+article {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 30px;
+}
+img {
+  flex: 1 1 500px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.testo {
+  flex: 1 1 400px;
+  line-height: 1.4;
+}
